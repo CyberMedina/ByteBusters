@@ -1,0 +1,35 @@
+name: smartraincontrol
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  dotted_border: 2.0.0+3
+  grouped_list: ^5.1.2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Noto Sans
+      fonts: 
+        - asset: assets/fonts/NotoSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/NotoSansBold.ttf
+          weight: 700
